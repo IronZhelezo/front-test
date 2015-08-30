@@ -1,0 +1,110 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#all {
+    background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , rgba(180, 180, 180, 1) 0%, rgba(180, 180, 180, 0.5) 50%, rgba(255, 255, 255, 0) 67%) no-repeat scroll right 0 bottom 16px / 350px 15px;
+    background-position: right 0em bottom 16px;
+    padding-bottom: 22px;
+    padding-top: 17px;
+    position: relative;
+    width: 350px;
+}
+#bg {
+    background: white none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 #6D6565;
+    margin: 0 auto;
+    padding: 5px;
+    width: 270px;
+}
+#ramka {
+    border-image: url("images/ram.png") 6 6 6 6 repeat repeat;
+    border-style: solid;
+    border-width: 6px;
+    padding: 5px;
+}
+#two {
+    background-image: linear-gradient(0deg, #f22222, #fbbdbd);
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.45), 0 0 3px rgba(62, 2, 2, 0.2) inset;
+    color: white;
+    font: bold 12px/1.4em Arial;
+    height: 17px;
+    position: absolute;
+    right: 36px;
+    text-align: center;
+    text-shadow: 0.05px 0 0.3px #fff;
+    text-transform: uppercase;
+    top: 17px;
+    min-width: 24px;
+}
+#osago {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px;
+    padding-left: 7px;
+    text-shadow: 0.05px 0 0.2px;
+}
+#dohod, #thu {
+    font-size: 12px;
+    padding-left: 11px;
+}
+#dohod {
+    color: #ada6a6;
+    padding-top: 1px;
+}
+#thu {
+    padding-top: 2px;
+}
+#obyaz {
+    background-image: linear-gradient(0deg, #effaff 0%, white 100%);
+    border: 1px solid rgb(209, 231, 245);
+    border-radius: 4px;
+    margin-top: 7px;
+    padding: 7px;
+    width: 232px;
+}
+#obkurs {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+#proc {
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #9ecbe8 75%, white 25%) repeat scroll 0 0;
+    border: 1px solid rgb(158, 203, 232);
+    box-shadow: 0 1px 0 white;
+    color: rgb(30, 75, 105);
+    font: bold 12px Arial;
+    height: 13px;
+    margin: 1px;
+    text-align: center;
+    width: 228px;
+}
+#prod button {
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #4cb554 0%, #3d9445 100%) repeat scroll 0 0;
+    border: 1px solid #2c7a32;
+    border-radius: 5px;
+    box-shadow: 0 30px 0 -29px #79c77f inset, 0 1px 0 0 white;
+    color: white;
+    display: inline-block;
+    font: 13px Arial;
+    height: 27px;
+    margin: 12px 0 1px 1px;
+    text-align: center;
+    width: 115px;
+}
+#prod, #min {
+    display: inline-block;
+}
+#min {
+    color: #ada6a6;
+    font-size: 11px;
+    letter-spacing: -0.02px;
+    padding-left: 4px;
+    text-align: left;
+}
